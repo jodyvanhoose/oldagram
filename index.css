@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ededed;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+
+h1, p{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: transform 0.3s ease-in-out;
+    /* width: 100%; */
+    background: #fff;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+header.hidden {
+  transform: translateY(-100%);
+}
+
+
+.header-container{
+    width: 375px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 5px;
+}
+
+.logo{
+    width: 127px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+main{
+    margin-top: 65px;
+}
+
+.post-title{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.post-title__info h1, 
+.post-title__info h2{
+    margin: 0;
+}
+
+.post-content{
+    width: 100%;
+    margin: 0;
+}
+
+.post-icons{
+    display: flex;
+    margin: 0;
+}
+
+.post-icons img{
+    width: 25px;
+    padding: 10px 0 12px 10px;
+    margin: 0;
+}
+
+.post-icons img:hover, 
+.post-icons img:focus{
+    cursor: pointer;
+}
+
+.post-items p{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding: 0 0 12px 10px;
+}
+
+.post{
+    margin-bottom: 25px;
+    
+}
